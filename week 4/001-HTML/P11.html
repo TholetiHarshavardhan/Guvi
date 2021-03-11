@@ -1,0 +1,98 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input type="button" value="button">
+        <br>
+        <br>
+        <input type="checkbox" id="checkbox" name="checkbox" checked>
+        <label for="checkbox">checkbox</label>
+        <br>
+        <br>
+        <input type="color" id="color" name="color" value="#e66465">
+        <label for="color">color</label>
+        <br>
+        <br>
+        <label for="date">date:</label>
+        <input type="date" id="date" name="date" value="2021-03-09" min="2021-01-01" max="2021-12-31">
+        <br>
+        <br>
+        <label for="meeting-time">Choose a time for your appointment:</label>
+        <input type="datetime-local" id="meeting-time" name="meeting-time" value="2021-03-10T19:30" min="2021-03-01T00:00" max="2021-03-28T00:00">'
+        <br>
+        <br>
+        <label for="email">email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <label for="avatar">Choose a profile picture:</label>
+        <input type="file" id="avatar" name="avatar" accept="image/png, image/jpeg">
+        <br>
+        <br>
+        <input id="prodId" name="prodId" type="hidden" value="xm234jq">
+        <br>
+        <br>
+        <input type="image" id="image" alt="Login" src="image1.png">
+        <br>
+        <br>
+        <label for="start">Start month:</label>
+        <input type="month" id="start" name="start" min="2021-03" value="2021-05">
+        <br>
+        <br>
+        <label for="number">Enter any number:</label>
+        <input type="number" name="number" id="number">
+        <br>
+        <br>
+        <label for="password">Enter password:</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <br>
+        <label for="radio">option</label>
+        <input type="radio" name="radio" id="radio">
+        <br>
+        <br>
+        <input type="range" id="volume" name="volume" min="0" max="11">
+        <label for="volume">Volume</label>
+        <br>
+        <br>
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id" />
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+        <br>
+        <br>
+        <label for="site-search">Search the site:</label>
+        <input type="search" id="site-search" name="q" aria-label="Search through site content">
+        <button>Search</button>
+        <br>
+        <br>
+        <label for="phone">Enter your phone number:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <small>Format: 123-456-7890</small>
+        <br>
+        <br>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+        <br>
+        <br>
+        <label for="time">Choose a time for your meeting:</label>
+        <input type="time" id="time" name="time" min="09:00" max="18:00" required>
+        <br>
+        <br>
+        <label for="url">Enter an https:// URL:</label>
+        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required>
+        <br>
+        <br>
+        <label for="week">Choose a week in May or June:</label>
+        <input type="week" name="week" id="week" min="2021-W18" max="2021-W26" required>
+        <br>
+        <br>
+    </form>
+</body>
+</html>
